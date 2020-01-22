@@ -5,7 +5,7 @@
 */
 {
   // name your instance!
-  "title": "SEEDNETwork",
+  "title": "SEEDNET Explorer",
 
   "address": "127.0.0.1:3001",
 
@@ -57,13 +57,13 @@
   // wallet settings
   "wallet": {
     "host": "localhost",
-    "port": 42421,
-    "user": "cryptop",
-    "pass": "Titanpartners18!"
+    "port": 9332,
+    "user": "darkcoinrpc",
+    "pass": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
   },
 
   // confirmations
-  "confirmations": 5,
+  "confirmations": 40,
 
   // language settings
   "locale": "locale/en.json",
@@ -79,7 +79,7 @@
     "search": true,
     "movement": true,
     "network": true,
-    "masternodes": true,
+    "masternodes": false,
     "coininfo": false,
     "coinmarketcap": false
   },
@@ -152,9 +152,9 @@
     "basic_info_links": [
       ["Github", "http://github.com/"]
     ],
-    "masternode_required": 1000,
+    "masternode_required": 4200,
     "block_time_sec": 120,
-    "block_reward_mn": 5
+    "block_reward_mn": 8
   },
 
   // CoinMarketCap integration
@@ -168,14 +168,14 @@
   "googleplus": "yourgooglepluspage",
 
   //genesis
-  "genesis_tx": "00000a925dcabf3fa0fc88de43180b15c766877fcbafc34926da03bbca8257f5",
-  "genesis_block": "xf68ef60416b64fddac8620dfff2efd9734f9ae82f7679f86f37477c5a2c74624",
+  "genesis_tx": "65f705d2f385dc85763a317b3ec000063003d6b039546af5d8195a5ec27ae410",
+  "genesis_block": "1799467ba40f8e3c41249e1230f0cee102faad5a1e60e0770069fcaed0c990f4",
 
   // Fetch blocks from <index>
   "fetch_blocks_from": 0,
 
   //heavy (enable/disable additional heavy features)
-  "heavy": false,
+  "heavy": true,
 
   //amount of txs to index per address (stores latest n txs)
   "txcount": 100,
